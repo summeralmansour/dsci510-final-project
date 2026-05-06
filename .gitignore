@@ -1,0 +1,36 @@
+# .gitignore — based on Python template from github.com/github/gitignore
+
+# Data files — DO NOT commit data to the repo
+data/
+*.csv
+*.zip
+*.xlsx
+
+# Environment variables — never commit API keys
+.env
+
+# Results (generated at runtime)
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+
+# Distribution
+dist/
+build/
+*.egg-info/

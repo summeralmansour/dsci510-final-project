@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+matplotlib
+seaborn
+scikit-learn
+python-dotenv
+jupyter
+nbformat
